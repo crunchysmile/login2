@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0
+	box-sizing:border-box;
+}
+body{
+	background-color: grey;
+	font-family: sans-serif;
+}
+.loginbox{
+	width: 300px;
+	height: 350px;
+	background-color: orange;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.loginbox .profile{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 0 auto;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.formField{
+	width: 70%;
+	margin:auto;
+	margin-top: 80px;
+	/*margin-left: 20px;*/
+}
+.formField p{
+	font-size: 18px;
+	color:white;
+}
+.formField input{
+	display: inline-block;;
+	width: 100%;
+	margin: auto;
+	margin: 10px auto 10px auto;
+	height: 30px;
+	border-radius: 5px;
+	outline: none;
+	text-indent: 10px;
+}
+.login-btn{
+	background-color: black;
+	color: white;
+	display: inline-block;
+	width: 100px !important;
+	outline: none;
+	margin-right:auto !important ;
+	margin-left: auto !important;
+	font-size: 15px;
+	text-align: center;
+}
